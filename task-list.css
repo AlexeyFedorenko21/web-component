@@ -1,0 +1,75 @@
+:host {
+  display: block;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 16px;
+}
+
+.add-btn {
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s;
+}
+
+.task-item:hover {
+  background-color: #f0f0f0;
+}
+
+.task-text {
+  flex: 1;
+  margin-left: 8px;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #888888e0;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px 8px;
+  transition: color 0.2s;
+}
+
+button:hover {
+  color: #257e0a;
+}
